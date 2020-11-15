@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace fejlesztesimintak
 {
-    public class BallFactory : IToyFactory
+    class CarFactory : IToyFactory
     {
         public Toy CreateNew()
         {
             return new Ball();
         }
     }
+    
 }
